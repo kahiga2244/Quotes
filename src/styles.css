@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.css";
+.card{
+    background: url("https://mdbootstrap.com/img/new/slides/041.jpg")no-repeat center center;
+    background-size: cover;
+    background-color:#ffff;
+    margin-bottom: 4em;
+    margin-right: 1em;
+}
