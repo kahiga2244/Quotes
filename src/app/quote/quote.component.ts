@@ -11,7 +11,9 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(1, 'Kobe Bryant', "“Everyone has talent, the difference is hunger,how much do you want it.", new Date(2021, 1, 25)),
     new Quote(2, 'Solomon ', "“I am the greatest me their will ever be”", new Date(2021, 1, 12)),
+    new Quote(2, 'Sonko', "“Power comes and goes, but the people shall remain”", new Date(2021, 1, 12)),
   ];
+
 
   like(index) {
     this.quotes[index].like++;

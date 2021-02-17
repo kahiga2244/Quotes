@@ -7,11 +7,11 @@ button{
     width: 100px;
 }
  h1{
-     background-color: rgb(146, 145, 129);
+     background-color: #ffff;
      font-size: 60px;
      font-weight: bold;
      text-align: center;
-     margin: 5px;
+     margin: 8px;
  }
  i {
     cursor: pointer;
